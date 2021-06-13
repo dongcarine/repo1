@@ -13,3 +13,6 @@ if [ `nproc` -eq 1 ]
 	echo " This serve is very small"
 	exit2
 fi	
+
+## Checking memory
+free -m
